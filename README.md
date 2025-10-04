@@ -1,145 +1,185 @@
-<p align="center">
-<img src="https://img.shields.io/github/languages/top/TT-Tutorials/GANG-Nuker?color=6d00c1&label-style=flat-square" </a>
-</p>
+# Women Safety App - Made in India
 
-<p align="center">
-<a href="https://youtu.be/ap9RE5AP6dE">TOKEN GENERATOR SHOWCASE</a>
+## Overview
+An advanced AI-powered women safety application developed in India with cutting-edge features for real-time protection and emergency response.
 
- 
-</p>
-<p align="center">
-<a href="https://github.com/TT-Tutorials/GANG-Nuker/releases/download/v1.0.0/GANG-Nuker.zip">Fast Download</a> ㅤ•ㅤ
-<a href="https://discord.gg/DuNZuyVdRx">Discord</a> ㅤ•ㅤ
-<a href="https://youtu.be/fLYnbEnbjtE">Setup Tutorial Video</a>
-</p>
-</p>
-<p align="center">
-<a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe">Python v3.10</a>ㅤㅤ 
-<a href="https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe">Python v3.9</a>
-</p>
-<p align="center">
-PREMIUM VERSION:
-<a href="https://gangnuker.org/">WEBSITE</a>
-</p>
- 
----
-![image](https://user-images.githubusercontent.com/94531396/171850124-c9800302-5bbc-4032-9509-a51e56228374.png)
-![image](https://user-images.githubusercontent.com/94531396/171852766-688a51b4-957f-44a3-978b-c036c52a01bb.png)
+## Features
 
+### 🎯 Core Safety Features
+- **Emergency Mode**: One-touch emergency activation with automatic police contact
+- **Real-time Location Tracking**: GPS with ISRO satellite coordination for enhanced precision
+- **AI Voice Recognition**: Advanced voice analysis with emergency keyword detection
+- **Health Monitoring**: Smartwatch integration for heartbeat and body temperature tracking
+- **Live Map Tracking**: Google Maps integration similar to Blinkit app for precise location sharing
 
-<p align="center"> 
-  <kbd>
-<img src="https://media.discordapp.net/attachments/997998908791857213/1000706753308139540/unknown.png"></img>
-  </kbd>
-</p>
+### 🤖 AI-Powered Systems
+- **Voice Recognition**: Updates every 3 seconds with AI filtering to prevent false alarms
+- **Emergency Detection**: Automatic detection of threat keywords in speech
+- **Health Analysis**: Real-time stress level calculation based on vital signs
+- **Location Enhancement**: ISRO satellite coordination for improved accuracy
 
-### Settings:
-- [x] - **Windows 10 / 11**
-- [x] - **Download Python:** [v3.10](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe) **or** [v3.9](https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe)
+### 🎨 Futuristic 4D UI Design
+- **Heartbeat Loop Animation**: Dynamic pulse animations for emergency states
+- **Glow Effects**: Advanced lighting effects with color-coded status indicators
+- **Gradient Backgrounds**: Modern gradient designs with smooth transitions
+- **Status Indicators**: Real-time visual feedback for all monitoring systems
 
-- [x] - **100% Safe!**
-- [x] - **Fequently Updating**
-- [x] - **Might Have Some Bugs**
-- [x] - **Python Provided**
-
-> **WARNING:** Many people have been selling/distributing of GANG-Nuker!
-
-> **DO NOT** Installing GANG-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
+### 📱 Technical Specifications
+- **Platform**: React Native (Cross-platform)
+- **Version**: 1.0.0
+- **Developer**: Dev Roy
+- **Country**: Made in India
+- **Accuracy**: 100% when possible with advanced AI systems
 
 ## Installation
 
-#### Source Code Version (More complicated but less buggy)
-```sh-session
-Download GANG-Nuker.zip
-Extract File
-Tap "Install.bat" in GANG Folder
-Once All The Modules Have Been Installed GANG will Auto Launch!
-Enjoy!
+### Prerequisites
+- Node.js (v16 or higher)
+- React Native CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development)
 
-NOTE: When Opening GANG-Nuker Just Tap "start.bat" to Open Everytime!
-NOTE: Make sure you have Python 3.9+ and Added to Path.
-```
+### Setup Instructions
 
-#### Compiled Version (Easier but more buggy)
-```sh-session
-Download: https://github.com/TT-Tutorials/GANG-Nuker/releases
-Extract File
-Download the latest release (GANG-Nuker.zip) and Extract The Executable
-Launch Program and Enjoy!
-```
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd women-safety-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **iOS Setup**
+   ```bash
+   cd ios && pod install && cd ..
+   ```
+
+4. **Run the application**
+   ```bash
+   # For Android
+   npx react-native run-android
+   
+   # For iOS
+   npx react-native run-ios
+   ```
+
+## App Structure
+
+### Screens
+- **HomeScreen**: Main dashboard with emergency button and status indicators
+- **EmergencyScreen**: Emergency mode interface with quick actions
+- **LocationScreen**: Real-time location tracking with satellite coordination
+- **VoiceRecognitionScreen**: AI voice monitoring and analysis
+- **HealthMonitorScreen**: Smartwatch integration and health data
+- **SettingsScreen**: App configuration and emergency contacts
+
+### Context Providers
+- **LocationContext**: GPS tracking and satellite coordination
+- **VoiceContext**: AI voice recognition and analysis
+- **HealthContext**: Smartwatch integration and health monitoring
+- **EmergencyContext**: Emergency contacts and alert systems
+
+### Components
+- **HeartbeatAnimation**: Dynamic pulse animations
+- **GlowEffect**: Advanced lighting effects
+- **StatusIndicator**: Real-time status visualization
+
+## Key Features Explained
+
+### 🎤 AI Voice Recognition
+- Continuous voice monitoring with 3-second update intervals
+- Advanced keyword filtering to prevent false alarms
+- Emergency detection based on threat-related speech patterns
+- Real-time confidence scoring and analysis
+
+### 📍 Location Tracking
+- Real-time GPS with ISRO satellite enhancement
+- Google Maps integration for live tracking
+- Automatic location sharing with emergency contacts
+- Enhanced accuracy through satellite coordination
+
+### ❤️ Health Monitoring
+- Smartwatch integration for vital signs
+- Heart rate monitoring with stress level calculation
+- Body temperature tracking
+- Emergency alerts for abnormal health conditions
+
+### 🚨 Emergency System
+- One-touch emergency activation
+- Automatic police contact (100 - Indian emergency number)
+- SMS alerts to emergency contacts
+- Location sharing with authorities
+- Continuous monitoring in emergency mode
+
+## Permissions Required
+
+### Android
+- `ACCESS_FINE_LOCATION`: Precise location tracking
+- `ACCESS_COARSE_LOCATION`: General location services
+- `RECORD_AUDIO`: Voice recognition functionality
+- `CALL_PHONE`: Emergency phone calls
+- `SEND_SMS`: Emergency SMS alerts
+- `READ_CONTACTS`: Emergency contact management
+- `BLUETOOTH_CONNECT`: Smartwatch connectivity
+- `BLUETOOTH_SCAN`: Device discovery
+
+### iOS
+- Location Services
+- Microphone Access
+- Phone Access
+- SMS Access
+- Contacts Access
+- Bluetooth Access
+
+## Safety Features
+
+### Emergency Response
+1. **Immediate Activation**: One-touch emergency mode
+2. **Police Contact**: Automatic dialing to emergency services
+3. **Location Sharing**: Real-time location sent to authorities
+4. **Contact Alerts**: SMS notifications to emergency contacts
+5. **Continuous Monitoring**: Ongoing surveillance in emergency mode
+
+### AI Protection
+- **Voice Analysis**: Continuous speech monitoring for threats
+- **Health Monitoring**: Vital signs tracking for stress detection
+- **Location Tracking**: Satellite-enhanced GPS for precise positioning
+- **False Alarm Prevention**: AI filtering to reduce unnecessary alerts
+
+## Technology Stack
+
+- **Frontend**: React Native
+- **Navigation**: React Navigation
+- **Maps**: React Native Maps (Google Maps)
+- **Voice**: React Native Voice
+- **Bluetooth**: React Native BLE PLX
+- **Location**: React Native Geolocation Service
+- **Animations**: React Native Reanimated
+- **UI**: React Native Paper
+- **Gradients**: React Native Linear Gradient
+
+## Contributing
+
+This is a specialized women safety application. Contributions should focus on:
+- Enhanced safety features
+- Improved AI accuracy
+- Better user experience
+- Additional emergency integrations
+- Performance optimizations
+
+## License
+
+This project is developed for women safety and should be used responsibly. Please ensure compliance with local laws and regulations regarding emergency services and privacy.
+
+## Support
+
+For technical support or emergency feature requests, please contact the development team.
 
 ---
 
-
-### <a id="code-example"></a>💻〢Proxie Supoort Example:
-
-```py
-    def fetchProxies(url, custom_regex):
-        global proxylist
-        try:
-            proxylist = requests.get(url, timeout=5).text
-        except Exception:
-            pass
-        finally:
-            proxylist = proxylist.replace('null', '')
-        custom_regex = custom_regex.replace('%ip%', '([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3})')
-        custom_regex = custom_regex.replace('%port%', '([0-9]{1,5})')
-        for proxy in re.findall(re.compile(custom_regex), proxylist):
-            proxieslog.append(f"{proxy[0]}:{proxy[1]}")
-
-    proxysources = [
-        ["http://spys.me/proxy.txt","%ip%:%port% "],
-        ["https://proxylist.icu/proxy/", "<td>%ip%:%port%</td><td>http<"],
-        ["https://proxylist.icu/proxy/1", "<td>%ip%:%port%</td><td>http<"],
-        ["https://proxylist.icu/proxy/2", "<td>%ip%:%port%</td><td>http<"],
-        ["https://proxylist.icu/proxy/3", "<td>%ip%:%port%</td><td>http<"],
-        ["https://proxylist.icu/proxy/4", "<td>%ip%:%port%</td><td>http<"],
-        ["https://proxylist.icu/proxy/5", "<td>%ip%:%port%</td><td>http<"],
-        ["http://www.httptunnel.ge/ProxyListForFree.aspx"," target=\"_new\">%ip%:%port%</a>"],
-        ["https://www.us-proxy.org/", "<tr><td>%ip%<\\/td><td>%port%<\\/td><td>(.*?){2}<\\/td><td class='hm'>.*?<\\/td><td>.*?<\\/td><td class='hm'>.*?<\\/td><td class='hx'>(.*?)<\\/td><td class='hm'>.*?<\\/td><\\/tr>"],
-        ["https://free-proxy-list.net/", "<tr><td>%ip%<\\/td><td>%port%<\\/td><td>(.*?){2}<\\/td><td class='hm'>.*?<\\/td><td>.*?<\\/td><td class='hm'>.*?<\\/td><td class='hx'>(.*?)<\\/td><td class='hm'>.*?<\\/td><\\/tr>"],
-        ["https://www.sslproxies.org/", "<tr><td>%ip%<\\/td><td>%port%<\\/td><td>(.*?){2}<\\/td><td class='hm'>.*?<\\/td><td>.*?<\\/td><td class='hm'>.*?<\\/td><td class='hx'>(.*?)<\\/td><td class='hm'>.*?<\\/td><\\/tr>"],
-        ["https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.json", "\"ip\":\"%ip%\",\"port\":\"%port%\","],
-        ["https://raw.githubusercontent.com/fate0/proxylist/master/proxy.list", '"host": "%ip%".*?"country": "(.*?){2}",.*?"port": %port%'],
-        ["https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list.txt", '%ip%:%port% (.*?){2}-.-S \\+'],
-        ["https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt", '%ip%", "type": "http", "port": %port%'],
-        ["https://www.hide-my-ip.com/proxylist.shtml", '"i":"%ip%","p":"%port%",'],
-        ["https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=6000&country=all&ssl=yes&anonymity=all", "%ip%:%port%"],
-        ["https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt", "%ip%:%port%"],
-        ["https://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt", "%ip%:%port%"],
-        ["https://raw.githubusercontent.com/scidam/proxy-list/master/proxy.json", '"ip": "%ip%",\n.*?"port": "%port%",']
-    ]
-    threads = [] 
-    for url in proxysources:
-        t = threading.Thread(target=fetchProxies, args=(url[0], url[1]))
-        threads.append(t)
-        t.start()
-    for t in threads:
-        t.join()
-
-    proxies = list(set(proxieslog))
-    with open(temp, "w") as f:
-        for proxy in proxies:
-            for i in range(random.randint(7, 10)):
-                f.write(f"{proxy}\n")
-    execution_time = (time.time() - startTime)
-```
-### <a id="code-example"></a>💻〢Auto Download Modules:
-
-```py
-import os 
-import threading
-
-try:
-    import EXAMPLE v1
-except:
-    os.system("pip install EXAMPLE v1")
-    import EXAMPLE v1
-
-try:
-    import EXAMPLE v2
-except:
-    os.system("pip install EXAMPLE v2")
-    import EXAMPLE v2
-```
-
+**Women Safety App - Made in India**  
+*Advanced AI-Powered Safety System*  
+*Version 1.0.0 • Dev Roy*
